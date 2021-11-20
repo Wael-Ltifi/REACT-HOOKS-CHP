@@ -1,0 +1,29 @@
+.list{
+  padding-top: 100px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+
+}
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  box-shadow: 1px 1px 5px black;
+  color: white;
+  z-index: 2;
+} 
+
+.box:hover{
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 2px 2px 2px #000;
+  
+}
